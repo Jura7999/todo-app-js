@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <main>
+      <div class="upper-todo">
+        <div class="headSubhead">
+          <h1>To-Dos für den Tag</h1>
+          <p class="p1">Füge einfach eine neue Aufgabe hinzu</p>
+        </div>
+        <div class="form">
+          <input
+            type="text"
+            name="task"
+            placeholder="Deine Aufgabe"
+            required
+            class="input"
+            id="input"
+          />
+          <button id="button">Hinzufügen</button>
+        </div>
+      </div>
+      <div class="lower-todo">
+        <div class="textSup">
+          <h2>Taks</h2>
+          <p class="p2">Hier kommen deine Aufgaben hin</p>
+        </div>
+        <ul class="Task-List" id="Task-List"></ul>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

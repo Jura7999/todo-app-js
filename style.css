@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+}
+
+.p1 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #a6d0ff;
+}
+
+button {
+  padding: 12px 16px;
+  background-color: #007aff;
+  color: white;
+  border: 2px solid black;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input {
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: 16px;
+  border: 1px solid #b7b7b7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.headSubhead {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.upper-todo {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 48px 16px;
+  background-color: black;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.p2 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #5c5c5c;
+}
+
+.textSup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.Task-List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.task {
+  padding: 10px 12px;
+  background-color: white;
+  color: #adadad;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #a6d0ff;
+}
+
+.lower-todo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #f5f5f5;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+    line-height: 72px;
+  }
+
+  .p1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .p2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .headSubhead {
+    gap: 24px;
+  }
+
+  .form {
+    width: 400px;
+  }
+
+  .upper-todo {
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding-top: 96px;
+    padding-bottom: 64px;
+  }
+
+  .textSup {
+    width: 720px;
+    gap: 24px;
+  }
+
+  .Task-List {
+    gap: 20px;
+    width: 720px;
+  }
+
+  .lower-todo {
+    gap: 48px;
+    padding: 64px 0;
+    align-items: center;
+    justify-content: center;
+  }
+}
