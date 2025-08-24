@@ -87,6 +87,13 @@ h2 {
   font-size: 16px;
   line-height: 20px;
   border: 1px solid #a6d0ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskfinish {
+  text-decoration: line-through;
 }
 
 .lower-todo {
@@ -98,6 +105,12 @@ h2 {
   padding-left: 32px;
   padding-right: 32px;
   background-color: #f5f5f5;
+}
+
+.delete-button {
+  border-bottom: 999px;
+  color: #a6d0ff;
+  padding: 5px 5px;
 }
 
 @media (min-width: 768px) {
